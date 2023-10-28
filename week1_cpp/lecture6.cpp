@@ -79,9 +79,16 @@ using namespace std;
     // return 0;
 //}
 
+//infinite loop
+// int main(){
+//     while(1){
+//         cout<<"chocolates";
+//     }
+// }
 
 int main(){
-    while(1){
-        cout<<"chocolates";
+    for(int i=0; ;i++){
+        cout<<i<<" ";
+        if(i>100) break;
     }
 }

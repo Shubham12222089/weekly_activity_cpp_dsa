@@ -24,7 +24,7 @@ int main(){
     for(int i=0;i<10;i++){
         cin>>a[i];
     }
-    cout<<"The 5 given inputs are : "<<endl;
+    cout<<"The 10 inputs in reverse order are : "<<endl;
     for(int i=9;i>=0;i--){
         cout<<a[i]<<" ";
     }
